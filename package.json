@@ -1,0 +1,10 @@
+{
+  "homepage": "https://jamwjam.github.io/",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
