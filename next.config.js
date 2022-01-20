@@ -1,6 +1,10 @@
-// next.config.js
-const isProd = process.env.NODE_ENV === 'production'
-
-module.exports = {
-  assetPrefix: isProd ? '/jamwjam.github.io/' : ''
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    loader: "imgix",
+    path: "https://noop/",
+  },
 }
+
+module.exports = nextConfig
