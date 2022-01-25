@@ -10,7 +10,7 @@ on:
 jobs:
   storybook:
     runs-on: ubuntu-latest
-    container: pandoc/latex
+
     strategy:
       matrix:
         node-version: [14.x]
@@ -39,7 +39,6 @@ jobs:
           npm i --legacy-peer-deps
           npm run build-storybook
       - name: Pushes to another repository
-        id: push_directory
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -50,9 +49,6 @@ jobs:
           user-email: jamwjam@gmail.com
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
-          target-directory: output
-      - name: Test get variable exported by push-to-another-repository
-        run: echo $DESTINATION_CLONED_DIRECTORY
 
   deployment:
     runs-on: ubuntu-latest
