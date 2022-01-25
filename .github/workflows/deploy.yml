@@ -43,13 +43,14 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with: 'docs-build'
-        destination-github-username: 'jamwjam'
-        destination-repository-name: 'storybook'
-        user-email: jamwjam@gmail.com
-        commit-message: See ORIGIN_COMMIT from $GITHUB_REF
-        target-branch: main
-        target-directory: output
+        with: 
+          source-directory: 'docs-build'
+          destination-github-username: 'jamwjam'
+          destination-repository-name: 'storybook'
+          user-email: jamwjam@gmail.com
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: main
+          target-directory: output
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
 
