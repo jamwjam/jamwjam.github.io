@@ -10,7 +10,7 @@ on:
 jobs:
   storybook:
     runs-on: ubuntu-latest
-
+    container: pandoc/latex
     strategy:
       matrix:
         node-version: [14.x]
