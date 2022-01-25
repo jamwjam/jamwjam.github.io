@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Jung Kim (James)",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "jamwjam@gmail.com",
+    "phone": "Avaliable upon request",
+    "website": "https://jamwjam.github.io",
+    "summary": "Software Enginner with a demonstrated history of working in the internet industry. My specialties include, but are not limited to: full-stack development, global ecommerce, localization and client-developer training/support.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dulles Tech Corridor",
+      "countryCode": "US",
+      "region": "Virginia"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "linkedin.com/in/jamwjam",
+        "url": "https://www.linkedin.com/in/jamwjam"
+      },
+      {
+        "network": "Github",
+        "username": "github.com/jamwjam",
+        "url": "https://github.com/jamwjam"
+      },
+      {
+        "network": "Gitlab",
+        "username": "gitlab.com/jamwjam",
+        "url": "https://gitlab.com/jamwjam"
+      },
+      {
+        "network": "Codepen",
+        "username": "codepen.io/jamwjam",
+        "url": "https://codepen.io/jamwjam/"
+      }
+    ]
+  },
+  "works": [
+    {
+      "company": "Perfect Sense",
+      "position": "<strong>Software Engineer</strong>",
+      "website": "https://perfectsensedigital.com",
+      "startDate": "July 2015",
+      "endDate": "",
+      "summary": "Provide clients with technical support, training and consultation. Provide full-stack development expertise to deliver enterprise grade web experience.",
+      "highlights": [
+        {
+          "header": "LogMeIn Care Support Platform (CSP) Team",
+          "link": "https://support.logmeininc.com"
+        },
+        "Developed RESTful API suite for facilitating document-to-site publishing workflow.",
+        "Migrated and consolidated customer support documentations into a single, unified platform.",
+        {
+          "header": "RescueAssist Marketing Team",
+          "link": "https://get.gotoassist.com"
+        },
+        "Delivered complete UI overhaul of RescueAssist Marketing pages.",
+        "Integrated ecommerce feature to create RescueAssist trial and purchase experience.",
+        {
+          "header": "GoTo Business Marketing Team",
+          "link": "https://www.gotomeeting.com"
+        },
+        "Led platform migration effort of GoTo product lines from Adobe AEM to a modern CMS.",
+        "Developed UI/UX experience based on feedbacks from marketing campaign analysis.",
+        "Assisted in on-boarding process for new developers to the team.",
+        {
+          "header":  "Univision Noticias",
+          "link": "https://www.univision.com/noticias"
+        },
+        "Developed Custom Live Blogging plugin for the CMS.",
+        {
+          "header": "Playbill",
+          "link": "https://www.playbill.com"
+        },
+        "Assisted in platform migration of the website from GeoCities to a modern CMS."
+      ]
+    },
+    {
+      "company": "L-3 National Security Solutions (Acquired by CACI)",
+      "position": "<strong>Solutions Architect (Intern)</strong>",
+      "website": "https://caci.com",
+      "startDate": "June 2014",
+      "endDate": "Jan 2015",
+      "summary": "",
+      "highlights": [
+        "Drafted enterprise architecture policies & procedures.",
+        "Captured & delivered analysis & whitepapers.",
+        "Engaged with government stakeholders. Provide status updates and retrospectives.",
+        "Supported L-3 recruitment efforts."
+      ]
+    },
+    {
+      "company": "Superlative Technologies dba. SuprTEK",
+      "position": "<strong>R&amp;D Engineer (Intern)</strong>",
+      "website": "https://www.suprtek.com/",
+      "startDate": "May 2013",
+      "endDate": "Jan 2014",
+      "summary": "",
+      "highlights": [
+        "Drafted proposal for DARPA Cyber Grand Challenge / Autonomous Network Defense.",
+        "Researched various NoSQL ad-hoc querying-tool capabilities.",
+        "Utilized JDBC to develop .jar script  to perform database maintenance.",
+        "Designed, developed and maintained continuous monitoring remediation dashboards.",
+        "Created / optimized stored procedures through SQL Server Management Studio.",
+        "Performed nUnit testing to validate code functionality."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Maryland",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2011",
+      "endDate": "2015",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming*",
+      "keywords": [
+        "Java",
+        "Javascript",
+        "C#",
+        "Python",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Web",
+      "keywords": [
+        "HTML",
+        "LESS",
+        "CSS",
+        "JSON",
+        "Handlebars",
+        "VueJs",
+        "React",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "Selenium",
+        "JUnit",
+        "BrowserStack"
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "keywords": [
+        "Grunt",
+        "Maven",
+        "npm",
+        "Webpack",
+        "Jenkins CI"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "keywords": [
+        "Git Version Control",
+        "Slack",
+        "Jira",
+        "Confluence",
+        "Atom text editor",
+        "IntelliJ IDE",
+        "Terminal"
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "keywords": [
+        "Global Ecommerce",
+        "Internationalization",
+        "Optimizely",
+        "Tealium Tag Management",
+        "Bold360Ai",
+        "Graylog"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
