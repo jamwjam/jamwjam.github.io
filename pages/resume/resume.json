@@ -8,8 +8,6 @@
     "website": "https://jamwjam.github.io",
     "summary": "Software Enginner with a demonstrated history of working in the internet industry. My specialties include, but are not limited to: full-stack development, global ecommerce, localization and client-developer training/support.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Dulles Tech Corridor",
       "countryCode": "US",
       "region": "Virginia"
@@ -41,9 +39,9 @@
     {
       "company": "Brightspot",
       "position": "Software Engineer",
-      "website": "https://perfectsensedigital.com",
+      "website": "https://brightspot.com",
       "startDate": "July 2015",
-      "endDate": "",
+      "endDate": "October 2020",
       "summary": "Provide clients with technical support, training and consultation. Provide full-stack development expertise to deliver enterprise grade web experience.",
       "highlights": [
         {
