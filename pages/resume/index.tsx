@@ -35,25 +35,85 @@ function Resume() {
           </div>
         </section>
         <section className={styles.content}>
-        <div className="row">
-          <div className="content-cat big-text">
-            Education
-            <p>2011 till 2015</p>
+          <div className="row">
+            <div className="content-cat big-text">
+              Education
+              <p>2011 till 2015</p>
+            </div>
+            <div className="content-text work-listing education-listing">
+              <p className="heading">University of Maryland</p>
+              <p className="highlight">
+                Bachelor of Science:
+                <i>Computer Science </i>
+              </p>
+            </div>
           </div>
-          <div className="content-text work-listing education-listing">
-            <p className="heading">University of Maryland</p>
-            <p className="highlight">
-              Bachelor of Science:
-              <i>Computer Science </i>
-            </p>
+        </section>
+        <br />
+        {resume.works.map((work, index) => {
+          return (
+            <section className="content" key={index}>
+              <div className="row">
+                <div className="content-cat big-text">
+                  {index === 0 && <>Work Experience</>}
+                  {work.startDate && work.endDate ?
+                    <p>{work.startDate}&nbsp;-&nbsp;{work.endDate}</p> :
+                    <p>{work.startDate}&nbsp;-&nbsp;Today</p>}
+                </div>
+              </div>
+              <div className="content-text work-listing education-listing">
+                <p><span>{work.position}</span>&nbsp;at&nbsp;<b><a href={work.website}>{work.company}</a></b></p>
+                <p>{work.summary}</p>
+                {work.highlights.map((highlight, index) => {
+                  if (typeof highlight === 'string') {
+                    return (
+                      <p className="highlight" key={index}>
+                        {highlight}
+                      </p>
+                    )
+                  }
+                  if (typeof highlight === 'object') {
+                    return (
+                      <p key={index}>
+                        <strong>
+                          {highlight.header}&nbsp;|&nbsp;<a href={highlight.link}>{highlight.link}</a>
+                        </strong>
+                      </p>
+                    )
+                  }
+                })}
+              </div>
+            </section>
+          )
+        })}
+        <br />
+        <section className="content">
+          <div className="row">
+            <div className="content-cat">
+              Skills
+              <p>* Ordered by proficiency</p>
+            </div>
+            <div className="content-text skills-listing">
+              {resume.skills.map((skill, index) => {
+                return (
+                  <p key={index}>
+                    <span className="name">
+                      <strong>{skill.name}:&nbsp;</strong>
+                    </span>
+                    {skill.keywords.map((keyword, index) => {
+                      return (index + 1 < skill.keywords.length) ?
+                        <span>{keyword},&nbsp;</span> :
+                        <span>{keyword}</span>
+                    })}
+                  </p>
+                )
+              })}
+            </div>
           </div>
-        </div>
-      </section>
-      <br/>
+        </section>
       </div>
     </article>
   )
 }
 
 export default Resume
-  

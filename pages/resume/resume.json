@@ -39,8 +39,8 @@
   },
   "works": [
     {
-      "company": "Perfect Sense",
-      "position": "<strong>Software Engineer</strong>",
+      "company": "Brightspot",
+      "position": "Software Engineer",
       "website": "https://perfectsensedigital.com",
       "startDate": "July 2015",
       "endDate": "",
@@ -53,11 +53,11 @@
         "Developed RESTful API suite for facilitating document-to-site publishing workflow.",
         "Migrated and consolidated customer support documentations into a single, unified platform.",
         {
-          "header": "RescueAssist Marketing Team",
+          "header": "GoToAssist Marketing Team",
           "link": "https://get.gotoassist.com"
         },
-        "Delivered complete UI overhaul of RescueAssist Marketing pages.",
-        "Integrated ecommerce feature to create RescueAssist trial and purchase experience.",
+        "Delivered complete UI overhaul of GoToAssist Marketing pages.",
+        "Integrated ecommerce feature to create GoToAssist trial and purchase experience.",
         {
           "header": "GoTo Business Marketing Team",
           "link": "https://www.gotomeeting.com"
@@ -66,7 +66,7 @@
         "Developed UI/UX experience based on feedbacks from marketing campaign analysis.",
         "Assisted in on-boarding process for new developers to the team.",
         {
-          "header":  "Univision Noticias",
+          "header": "Univision Noticias",
           "link": "https://www.univision.com/noticias"
         },
         "Developed Custom Live Blogging plugin for the CMS.",
@@ -79,7 +79,7 @@
     },
     {
       "company": "L-3 National Security Solutions (Acquired by CACI)",
-      "position": "<strong>Solutions Architect (Intern)</strong>",
+      "position": "Solutions Architect (Intern)",
       "website": "https://caci.com",
       "startDate": "June 2014",
       "endDate": "Jan 2015",
@@ -93,7 +93,7 @@
     },
     {
       "company": "Superlative Technologies dba. SuprTEK",
-      "position": "<strong>R&amp;D Engineer (Intern)</strong>",
+      "position": "R&D Engineer (Intern)",
       "website": "https://www.suprtek.com/",
       "startDate": "May 2013",
       "endDate": "Jan 2014",
