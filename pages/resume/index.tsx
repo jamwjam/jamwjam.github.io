@@ -14,11 +14,11 @@ function Resume() {
       </header>
       <div className={styles['content-wrapper']}>
         <section className={styles.content}>
-          <div className="row">
-            <div className="content-cat">
+          <div className={styles.row}>
+            <div className={styles['content-cat']}>
               Contact
             </div>
-            <div className="content-text">
+            <div className={styles['content-text']}>
               <ul>
                 <li>Website</li>
                 <li><a href={resume.basics.website}>{resume.basics.website}</a></li>
@@ -35,14 +35,14 @@ function Resume() {
           </div>
         </section>
         <section className={styles.content}>
-          <div className="row">
+          <div className={styles.row}>
             <div className="content-cat big-text">
               Education
               <p>2011 till 2015</p>
             </div>
             <div className="content-text work-listing education-listing">
-              <p className="heading">University of Maryland</p>
-              <p className="highlight">
+              <p className={styles.heading}>University of Maryland</p>
+              <p className={styles.highlight}>
                 Bachelor of Science:
                 <i>Computer Science </i>
               </p>
@@ -52,8 +52,8 @@ function Resume() {
         <br />
         {resume.works.map((work, index) => {
           return (
-            <section className="content" key={index}>
-              <div className="row">
+            <section className={styles.content} key={index}>
+              <div className={styles.row}>
                 <div className="content-cat big-text">
                   {index === 0 && <>Work Experience</>}
                   {work.startDate && work.endDate ?
@@ -67,7 +67,7 @@ function Resume() {
                 {work.highlights.map((highlight, index) => {
                   if (typeof highlight === 'string') {
                     return (
-                      <p className="highlight" key={index}>
+                      <p className={styles.highlight} key={index}>
                         {highlight}
                       </p>
                     )
@@ -87,9 +87,9 @@ function Resume() {
           )
         })}
         <br />
-        <section className="content">
-          <div className="row">
-            <div className="content-cat">
+        <section className={styles.content}>
+          <div className={styles.row}>
+            <div className={styles['content-cat']}>
               Skills
               <p>* Ordered by proficiency</p>
             </div>
@@ -97,7 +97,7 @@ function Resume() {
               {resume.skills.map((skill, index) => {
                 return (
                   <p key={index}>
-                    <span className="name">
+                    <span className={styles.name}>
                       <strong>{skill.name}:&nbsp;</strong>
                     </span>
                     {skill.keywords.map((keyword, index) => {
