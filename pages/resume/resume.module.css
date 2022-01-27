@@ -41,13 +41,6 @@
     margin-left: 1em;
 }
 
-.subtitle {
-    font-family: "Merriweather";
-    padding-top: .3em;
-    font-size: 0.55em;
-    font-weight: 500;
-}
-
 /* Content Part */
 
 .content {
@@ -79,7 +72,7 @@
     letter-spacing: 1px;
   
     color: #000;
-    font-size: 0.975em;
+    font-size: 0.85em;
     text-align: center;
     vertical-align: middle;
   
@@ -88,7 +81,7 @@
 }
   
 .content-cat p {
-    font-size: 0.55em;
+    font-size: .85em;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -107,7 +100,6 @@
     padding: 0;
     margin: 0;
     margin-top: 0.15em;
-
     width: 85%;
     margin-left: 1.5em;
 }
@@ -118,7 +110,7 @@
 
 .content-text ul li {
     font-family: "Open Sans";
-    font-size: 0.73em;
+    font-size: 0.85em;
     display: inline-block;
 }
 
@@ -139,7 +131,7 @@ div.content-text.work-listing.education-listing>p>strong>a {
 
 .work-listing p {
   font-family: "Open Sans";
-  font-size: .73em;
+  font-size: 0.85em;
   color: #000;
   margin-left: 2em;
   margin-top: 0.45em;
@@ -152,7 +144,7 @@ div.content-text.work-listing.education-listing>p:nth-child(2) {
 
 .work-listing .highlight {
   font-family: "Open Sans";
-  font-size: 0.73em;
+  font-size: 0.85em;
   font-weight: 400;
   color: #424242;
   margin-left: 3.25em;
@@ -162,7 +154,7 @@ div.content-text.work-listing.education-listing>p:nth-child(2) {
 
 .education-listing>.heading {
   font-weight: 600;
-  margin-top: 0.73em;
+  margin-top: 1em;
   margin-left: 2em;
 }
 
@@ -186,7 +178,7 @@ section.content.education-content>div>div.content-cat {
 
 div.content-text.skills-listing>p {
   font-family: "Open Sans";
-  font-size: 0.73em;
+  font-size: 0.85em;
   font-weight: 400;
   margin-left: 2em;
   margin-top: 0.45em;

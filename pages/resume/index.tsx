@@ -9,7 +9,7 @@ function Resume() {
         <div className={styles['header-content']}>
           <div className={styles['header-text']}>
             <p>{resume.basics.name}</p>
-            <p className={styles.subtitles}>{resume.basics.label} | US Citizen</p>
+            <p>{resume.basics.label} | US Citizen</p>
           </div>
         </div>
       </header>
@@ -35,6 +35,7 @@ function Resume() {
             </div>
           </div>
         </section>
+        <br />
         <section className={styles.content}>
           <div className={styles.row}>
             <div className={classNames(styles['content-cat'], styles['big-text'])}>
