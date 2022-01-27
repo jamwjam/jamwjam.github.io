@@ -2,7 +2,6 @@
   "basics": {
     "name": "Jung Kim (James)",
     "label": "Software Engineer",
-    "picture": "",
     "email": "jamwjam@gmail.com",
     "phone": "Avaliable upon request",
     "website": "https://jamwjam.github.io",
@@ -106,96 +105,58 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Maryland",
       "area": "Computer Science",
       "studyType": "Bachelor of Science",
       "startDate": "2011",
-      "endDate": "2015",
-      "gpa": "",
-      "courses": []
+      "endDate": "2015"
     }
   ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
-      "name": "Programming*",
+      "name": "Frontend",
+      "keywords": [
+        "TypeScript",
+        "React v16.8",
+        "Redux",
+        "Webpack",
+        "MobX",
+        "CSS-Modules",
+        "LESS",
+        "SCSS",
+        "Handlebars",
+        "Liquid",
+        "VueJS",
+        "Grunt",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Backend",
       "keywords": [
         "Java",
-        "Javascript",
-        "C#",
-        "Python",
-        "Ruby"
+        "Apache Tomcat",
+        "Maven",
+        "Graylog"
       ]
     },
     {
-      "name": "Web",
+      "name": "Testing & Analytics",
       "keywords": [
-        "HTML",
-        "LESS",
-        "CSS",
-        "JSON",
-        "Handlebars",
-        "VueJs",
-        "React",
-        "Redux"
-      ]
-    },
-    {
-      "name": "Testing",
-      "keywords": [
-        "Selenium",
-        "JUnit",
+        "Google Tag Management",
+        "Optimizely",
         "BrowserStack"
       ]
     },
     {
-      "name": "Build Tools",
+      "name": "CMS",
       "keywords": [
-        "Grunt",
-        "Maven",
-        "npm",
-        "Webpack",
-        "Jenkins CI"
-      ]
-    },
-    {
-      "name": "Workflow",
-      "keywords": [
-        "Git Version Control",
-        "Slack",
-        "Jira",
-        "Confluence",
-        "Atom text editor",
-        "IntelliJ IDE",
-        "Terminal"
-      ]
-    },
-    {
-      "name": "Miscellaneous",
-      "keywords": [
-        "Global Ecommerce",
-        "Internationalization",
-        "Optimizely",
-        "Tealium Tag Management",
-        "Bold360Ai",
-        "Graylog"
+        "Brightspot CMS",
+        "SiteCore",
+        "Strapi"
       ]
     }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Korean",
-      "fluency": "Native or bilingual proficiency"
-    }
-  ],
-  "interests": [],
-  "references": []
+  ]
 }

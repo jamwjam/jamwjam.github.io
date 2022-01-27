@@ -62,7 +62,7 @@ function Resume() {
                     <p>{work.startDate}&nbsp;-&nbsp;Today</p>}
                 </div>
                 <div className={classNames(styles['content-text'], styles['work-listing'], styles['education-listing'])}>
-                  <p><span>{work.position}</span>&nbsp;at&nbsp;<b><a href={work.website}>{work.company}</a></b></p>
+                  <p><b>{work.position}</b>&nbsp;at&nbsp;<b><a href={work.website}>{work.company}</a></b></p>
                   <p>{work.summary}</p>
                   {work.highlights.map((highlight, index) => {
                     if (typeof highlight === 'string') {
@@ -92,7 +92,6 @@ function Resume() {
           <div className={styles.row}>
             <div className={styles['content-cat']}>
               Skills
-              <p>* Ordered by proficiency</p>
             </div>
             <div className={classNames(styles['content-text'], styles['skills-listing'])}>
               {resume.skills.map((skill, index) => {
@@ -101,11 +100,7 @@ function Resume() {
                     <span className={styles.name}>
                       <strong>{skill.name}:&nbsp;</strong>
                     </span>
-                    {skill.keywords.map((keyword, index) => {
-                      return (index + 1 < skill.keywords.length) ?
-                        <span>{keyword},&nbsp;</span> :
-                        <span>{keyword}</span>
-                    })}
+                    {skill.keywords.join(', ')}
                   </p>
                 )
               })}
