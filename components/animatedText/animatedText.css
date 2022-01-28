@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Shrikhand);
+
+.animated-text {  
+  background:
+    url('https://media.giphy.com/media/d28k3pJ5YLzoY/giphy.gif')  
+    no-repeat center center;
+   background-size:100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-text > h1 {
+  font-family: 'Shrikhand';
+  font-size: 70px;
+  font-weight: normal;
+}
