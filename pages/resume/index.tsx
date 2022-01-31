@@ -1,6 +1,7 @@
 import resume from './resume.json'
 import styles from './resume.module.css'
 import classNames from 'classnames';
+import { HeartText } from '../../components/heartText/HeartText';
 
 function Resume() {
   return (
@@ -109,6 +110,7 @@ function Resume() {
           </div>
         </section>
       </div>
+      <HeartText />
     </article>
   )
 }
