@@ -26,3 +26,11 @@
   align-items: center;
   flex-grow: 1;
 }
+
+ul.links {
+  padding: 0;
+}
+
+ul.links > li {
+  list-style-type: lower-greek;
+}

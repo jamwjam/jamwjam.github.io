@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <p>
           welcome to my personal corner of the internet!
         </p>
-        <ul>
+        <ul className={styles.links}>
           <li><Link href="/resume">resume</Link></li>
           <li><a href="https://github.com/jamwjam">github</a></li>
           <li><a href="https://codepen.io/jamwjam">codepen</a></li>
