@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import { HeartText } from '../components/heartText/HeartText'
 import styles from '../styles/Home.module.css'
 
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
           welcome to my personal corner of the internet!
         </p>
         <ul>
-          <li><a href="/resume">resume</a></li>
+          <li><Link href="/resume">resume</Link></li>
           <li><a href="https://github.com/jamwjam">github</a></li>
           <li><a href="https://codepen.io/jamwjam">codepen</a></li>
           <li><a href="https://jamwjam.github.io/storybook/">storybook</a></li>
