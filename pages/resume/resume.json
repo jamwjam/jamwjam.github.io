@@ -40,7 +40,7 @@
       "position": "Software Engineer",
       "website": "https://brightspot.com",
       "startDate": "July 2015",
-      "endDate": "October 2020",
+      "endDate": "Oct 2020",
       "summary": "Provide clients with technical support, training and consultation. Provide full-stack development expertise to deliver enterprise grade web experience.",
       "highlights": [
         {
@@ -122,7 +122,6 @@
         "React v16.8",
         "Redux",
         "Webpack",
-        "MobX",
         "CSS-Modules",
         "LESS",
         "SCSS",
@@ -146,6 +145,7 @@
       "name": "Testing & Analytics",
       "keywords": [
         "Google Tag Management",
+        "Google Optimize",
         "Optimizely",
         "BrowserStack"
       ]

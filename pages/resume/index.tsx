@@ -41,54 +41,14 @@ function Resume() {
           <div className={styles.row}>
             <div className={classNames(styles['content-cat'], styles['big-text'])}>
               Education
-              <p>2011 till 2015</p>
+              <p>2011 - 2015</p>
             </div>
             <div className={classNames(styles['content-text'], styles['work-listing'], styles['education-listing'])}>
               <p className={styles.heading}>University of Maryland</p>
-              <p className={styles.highlight}>
-                Bachelor of Science:
-                <i>Computer Science </i>
-              </p>
+              <p className={styles.highlight}>Bachelor of Science: Computer Science</p>
             </div>
           </div>
         </section>
-        <br />
-        {resume.works.map((work, index) => {
-          return (
-            <section className={styles.content} key={index}>
-              <div className={styles.row}>
-                <div className={classNames(styles['content-cat'], styles['big-text'])}>
-                  {index === 0 && <>Work Experience</>}
-                  {work.startDate && work.endDate ?
-                    <p>{work.startDate}&nbsp;-&nbsp;{work.endDate}</p> :
-                    <p>{work.startDate}&nbsp;-&nbsp;Today</p>}
-                </div>
-                <div className={classNames(styles['content-text'], styles['work-listing'], styles['education-listing'])}>
-                  <p><b>{work.position}</b>&nbsp;at&nbsp;<b><a href={work.website}>{work.company}</a></b></p>
-                  <p>{work.summary}</p>
-                  {work.highlights.map((highlight, index) => {
-                    if (typeof highlight === 'string') {
-                      return (
-                        <p className={styles.highlight} key={index}>
-                          {highlight}
-                        </p>
-                      )
-                    }
-                    if (typeof highlight === 'object') {
-                      return (
-                        <p key={index}>
-                          <strong>
-                            {highlight.header}&nbsp;|&nbsp;<a href={highlight.link}>{highlight.link}</a>
-                          </strong>
-                        </p>
-                      )
-                    }
-                  })}
-                </div>
-              </div>
-            </section>
-          )
-        })}
         <br />
         <section className={styles.content}>
           <div className={styles.row}>
@@ -109,9 +69,48 @@ function Resume() {
             </div>
           </div>
         </section>
-      </div>
+        <br />
+        {
+          resume.works.map((work, index) => {
+            return (
+              <section className={styles.content} key={index}>
+                <div className={styles.row}>
+                  <div className={classNames(styles['content-cat'], styles['big-text'])}>
+                    {index === 0 && <>Work Experience</>}
+                    {work.startDate && work.endDate ?
+                      <p>{work.startDate}&nbsp;-&nbsp;{work.endDate}</p> :
+                      <p>{work.startDate}&nbsp;-&nbsp;Today</p>}
+                  </div>
+                  <div className={classNames(styles['content-text'], styles['work-listing'], styles['education-listing'])}>
+                    <p><b>{work.position}</b>&nbsp;at&nbsp;<b><a href={work.website}>{work.company}</a></b></p>
+                    <p>{work.summary}</p>
+                    {work.highlights.map((highlight, index) => {
+                      if (typeof highlight === 'string') {
+                        return (
+                          <p className={styles.highlight} key={index}>
+                            {highlight}
+                          </p>
+                        )
+                      }
+                      if (typeof highlight === 'object') {
+                        return (
+                          <p key={index}>
+                            <strong>
+                              {highlight.header}&nbsp;|&nbsp;<a href={highlight.link}>{highlight.link}</a>
+                            </strong>
+                          </p>
+                        )
+                      }
+                    })}
+                  </div>
+                </div>
+              </section>
+            )
+          })
+        }
+      </div >
       <HeartText />
-    </article>
+    </article >
   )
 }
 
