@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './heartText.module.css';
-import Image from 'next/image'
+import heart from '../../public/static/heart.svg'
 
 /**
  * Primary UI component for user interaction
  */
 export const HeartText = () => {
+  console.log(heart)
   return (
     <div className={styles.heartText}>
-      Made with Next.js and <Image className={styles.heart} src="/static/heart.svg" width="19.2px" height="16px" /> by James
+      Made with Next.js and <img className={styles.heart} src={heart.src} alt="❤️" /> by James
     </div >
   );
 };

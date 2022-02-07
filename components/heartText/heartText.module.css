@@ -24,10 +24,12 @@
 
 .heart {
     display: inline-block;
+    height: 16px;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-name: heartBeat;
     animation-timing-function: linear;
+    vertical-align: text-bottom;
 }
 
 .heartText {
