@@ -3,7 +3,6 @@
     "name": "Jung Kim (James)",
     "label": "Software Engineer",
     "email": "jamwjam@gmail.com",
-    "phone": "Avaliable upon request",
     "website": "https://jamwjam.github.io",
     "summary": "Software Enginner with a demonstrated history of working in the internet industry. My specialties include, but are not limited to: full-stack development, global ecommerce, localization and client-developer training/support.",
     "location": {
@@ -36,42 +35,54 @@
   },
   "works": [
     {
-      "company": "Brightspot",
-      "position": "Software Engineer",
-      "website": "https://brightspot.com",
-      "startDate": "July 2015",
-      "endDate": "Oct 2020",
-      "summary": "Provide clients with technical support, training and consultation. Provide full-stack development expertise to deliver enterprise grade web experience.",
+      "company": "GoTo (formally LogMeIn)",
+      "position": "Senior UI Engineer",
+      "website": "https://goto.com",
+      "startDate": "Nov 2020",
+      "endDate": "",
+      "summary": "Deliver enterprise-grade web experiences with speed-to-market in mind.",
       "highlights": [
         {
-          "header": "LogMeIn Care Support Platform (CSP) Team",
-          "link": "https://support.logmeininc.com"
+          "header": "Web Application Team",
+          "link": "https://buy.goto.com/resolve/customize"
         },
-        "Developed RESTful API suite for facilitating document-to-site publishing workflow.",
-        "Migrated and consolidated customer support documentations into a single, unified platform.",
+        "Delivered ecommerce page UI for the GoToResolve product line.",
         {
           "header": "GoToAssist Marketing Team",
           "link": "https://get.gotoassist.com"
         },
         "Delivered complete UI overhaul of GoToAssist Marketing pages.",
-        "Integrated ecommerce feature to create GoToAssist trial and purchase experience.",
+        "Integrated global ecommerce trial/purchase funtionality for GoToAssist product line."
+      ]
+    },
+    {
+      "company": "Brightspot",
+      "position": "Senior Software Engineer",
+      "website": "https://brightspot.com",
+      "startDate": "July 2015",
+      "endDate": "Oct 2020",
+      "summary": "Provide clients with technical support, training and consultation. Provide full-stack development expertise to deliver enterprise-grade web experience.",
+      "highlights": [
         {
-          "header": "GoTo Business Marketing Team",
+          "header": "Care Support Platform Team",
+          "link": "https://support.logmeininc.com"
+        },
+        "Developed RESTful API suite for facilitating document-to-site publishing workflow.",
+        {
+          "header": "GetGo Marketing Team",
           "link": "https://www.gotomeeting.com"
         },
-        "Led platform migration effort of GoTo product lines from Adobe AEM to a modern CMS.",
-        "Developed UI/UX experience based on feedbacks from marketing campaign analysis.",
-        "Assisted in on-boarding process for new developers to the team.",
+        "Platform migration of GoTo product websites from Adobe AEM to Brightspot CMS.",
         {
           "header": "Univision Noticias",
           "link": "https://www.univision.com/noticias"
         },
-        "Developed Custom Live Blogging plugin for the CMS.",
+        "Delivered Custom Live Blogging plugin utilized in Brightspot CMS.",
         {
           "header": "Playbill",
           "link": "https://www.playbill.com"
         },
-        "Assisted in platform migration of the website from GeoCities to a modern CMS."
+        "Delivered in platform migration of the website from GeoCities to Brightspot CMS."
       ]
     },
     {
@@ -82,10 +93,9 @@
       "endDate": "Jan 2015",
       "summary": "",
       "highlights": [
-        "Drafted enterprise architecture policies & procedures.",
-        "Captured & delivered analysis & whitepapers.",
-        "Engaged with government stakeholders. Provide status updates and retrospectives.",
-        "Supported L-3 recruitment efforts."
+        "Drafted enterprise architecture policies and procedures.",
+        "Captured and delivered analysis and whitepapers.",
+        "Engaged with government stakeholders. Provide status updates and retrospectives."
       ]
     },
     {
@@ -97,11 +107,8 @@
       "summary": "",
       "highlights": [
         "Drafted proposal for DARPA Cyber Grand Challenge / Autonomous Network Defense.",
-        "Researched various NoSQL ad-hoc querying-tool capabilities.",
-        "Utilized JDBC to develop .jar script  to perform database maintenance.",
         "Designed, developed and maintained continuous monitoring remediation dashboards.",
-        "Created / optimized stored procedures through SQL Server Management Studio.",
-        "Performed nUnit testing to validate code functionality."
+        "Created / optimized stored procedures through SQL Server Management Studio."
       ]
     }
   ],
@@ -126,7 +133,6 @@
         "LESS",
         "SCSS",
         "Handlebars",
-        "Liquid",
         "NextJS",
         "Grunt",
         "jQuery"
@@ -142,18 +148,13 @@
       ]
     },
     {
-      "name": "Testing & Analytics",
+      "name": "Tools",
       "keywords": [
         "Google Tag Management",
         "Google Optimize",
         "Optimizely",
-        "BrowserStack"
-      ]
-    },
-    {
-      "name": "CMS",
-      "keywords": [
-        "Brightspot CMS",
+        "BrowserStack",
+        "Brightspot",
         "SiteCore",
         "Strapi"
       ]

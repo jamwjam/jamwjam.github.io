@@ -29,10 +29,6 @@ function Resume() {
                 <li>Email</li>
                 <li><a href={`mailto:${resume.basics.email}`} className="__cf_email__">{resume.basics.email}</a></li>
               </ul>
-              <ul>
-                <li>Phone</li>
-                <li>{resume.basics.phone}</li>
-              </ul>
             </div>
           </div>
         </section>
@@ -96,7 +92,12 @@ function Resume() {
                         return (
                           <p key={index}>
                             <strong>
-                              {highlight.header}&nbsp;|&nbsp;<a href={highlight.link}>{highlight.link}</a>
+                              {highlight.header}
+                              {highlight.link &&
+                                <>
+                                  &nbsp;|&nbsp;<a href={highlight.link}>{highlight.link}</a>
+                                </>
+                              }
                             </strong>
                           </p>
                         )
