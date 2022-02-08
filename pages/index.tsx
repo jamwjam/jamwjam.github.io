@@ -22,6 +22,7 @@ const Home: NextPage = () => {
           <li><a href="https://github.com/jamwjam">github</a></li>
           <li><a href="https://codepen.io/jamwjam">codepen</a></li>
           <li><a href="https://jamwjam.github.io/storybook/">storybook</a></li>
+          <li><Link href="/resources">curated resources</Link></li>
         </ul>
       </main>
 
