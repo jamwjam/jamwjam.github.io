@@ -36,17 +36,35 @@
   "works": [
     {
       "company": "GoTo (formally LogMeIn)",
+      "position": "Staff Software Engineer",
+      "website": "https://goto.com",
+      "startDate": "Apr 2022",
+      "endDate": "",
+      "summary": "Deliver enterprise-grade web experiences with speed-to-market in mind.",
+      "highlights": [
+        {
+          "header": "IT Solutions Group Growth Team",
+          "link": "https://goto.com/it-management"
+        },
+        "Lead the development and execution of A/B tests across multiple GoTo product lines.",
+        "Lead development of https://get.gotomypc.com",
+        "Lead development of https://logmeinrescue.com",
+        "Support legacy products https://gotomeeting.com and https://logmein.com"
+      ] 
+    },
+    {
+      "company": "GoTo (formally LogMeIn)",
       "position": "Senior UI Engineer",
       "website": "https://goto.com",
       "startDate": "Nov 2020",
-      "endDate": "",
-      "summary": "Deliver enterprise-grade web experiences with speed-to-market in mind.",
+      "endDate": "Mar 2022 ",
       "highlights": [
         {
           "header": "Web Application Team",
           "link": "https://buy.goto.com/resolve/customize"
         },
-        "Delivered trial/purchase ecommerce experience for the GoToResolve product line.",
+        "Delivered trial widget microservices for GoToResolve https://www.goto.com/resolve/free",
+        "Delivered purchase ecommerce experience for the GoToResolve product line.",
         {
           "header": "GoToAssist Marketing Team",
           "link": "https://get.gotoassist.com"
@@ -125,38 +143,32 @@
     {
       "name": "Frontend",
       "keywords": [
+        "JavaScript",
         "TypeScript",
-        "React v16.8",
-        "Redux",
-        "Webpack",
-        "CSS-Modules",
-        "LESS",
-        "SCSS",
-        "Handlebars",
-        "NextJS",
-        "Grunt",
-        "jQuery"
+        "React / Redux",
+        "CSS Preprocessors (SASS, LESS)",
+        "Templating (Handlebars, Razor)"
       ]
     },
     {
       "name": "Backend",
       "keywords": [
-        "Java",
-        "Apache Tomcat",
-        "Maven",
-        "Graylog"
+        "C# / .NET",
+        "Java"
       ]
     },
     {
       "name": "Tools",
       "keywords": [
-        "Google Tag Management",
-        "Google Optimize",
+        "SiteCore",
+        "AB Tasty",
         "Optimizely",
         "BrowserStack",
-        "Brightspot",
-        "SiteCore",
-        "Strapi"
+        "Brightspot CMS",
+        "Graylog",
+        "Storybook",
+        "Webpack",
+        "Vite"
       ]
     }
   ]

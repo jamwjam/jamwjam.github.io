@@ -48,6 +48,21 @@ function Resume() {
         <br />
         <section className={styles.content}>
           <div className={styles.row}>
+            <div className={classNames(styles['content-cat'], styles['big-text'])}>
+              Volunteering
+              <p>2022 - Today</p>
+            </div>
+            <div className={classNames(styles['content-text'], styles['work-listing'], styles['education-listing'])}>
+              <p className={styles.heading}>Full-Stack Engineer at Whiskers, Paws and Love Inc. <a href="https://whiskerspawslove.org">https://whiskerspawslove.org</a></p>
+              <p className={styles.highlight}>Utilize and experiment the latest technology to bring the website into fruition</p>
+              <p className={styles.highlight}>Handle all aspects of engineering (FE, BE, Design, Testing and DevOps)</p>
+              <p className={styles.highlight}>Handle all aspects of information technology</p>
+            </div>
+          </div>
+        </section>
+        <br />
+        <section className={styles.content}>
+          <div className={styles.row}>
             <div className={styles['content-cat']}>
               Skills
             </div>
